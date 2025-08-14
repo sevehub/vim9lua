@@ -1,0 +1,41 @@
+
+*vim9lua.txt*  For Vim version 9.0
+
+vim9lua.vim - Run Lua scripts from the current buffer in PowerShell
+
+==============================================================================
+INTRODUCTION
+==============================================================================
+
+This plugin allows you to execute the contents of the current buffer as a Lua
+script using Windows PowerShell. It captures both standard output (stdout) and
+standard error (stderr), displaying the results in a new scratch within Vim.
+
+==============================================================================
+INSTALLATION
+==============================================================================
+
+To install this plugin using vim-plug, add the following line to your `.vimrc`:
+
+    Plug 'sevehub/vim9lua'
+
+Then run `:PlugInstall` to install the plugin.
+
+==============================================================================
+USAGE
+==============================================================================
+
+To run the Lua script from the current buffer, use the following command:
+
+    :RunLua
+
+==============================================================================
+COMMANDS
+==============================================================================
+
+- `:RunLua`
+  Execute the current buffer as a Lua script and display the output.
+
+
+
+
